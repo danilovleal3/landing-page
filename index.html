@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alex Stone - Personal Training & Nutrição</title>
+    <title>Unknown - Personal Training & Nutrição</title>
     
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
         <section class="hero">
             <div class="container">
                 <div class="hero-content"> 
-                    <div class="logo">Alex Stone</div> 
+                    <div class="logo">Unknown</div> 
                     <h1>Finalmente. Um Plano de Treino 100% Focado em Você.</h1>
-                    <p>Eu sou Alex, educador físico. Eu acabo com o "achismo" e construo planos de treino e nutrição baseados em ciência para você atingir seus objetivos.</p>
+                    <p>Eu sou Unknown, educador físico. Eu acabo com o "achismo" e construo planos de treino e nutrição baseados em ciência para você atingir seus objetivos.</p>
                     
                     <div class="hero-buttons">
                         <a href="#contact" class="btn btn-main-cta">Agende Sua Primeira Aula</a> 
@@ -30,7 +32,7 @@
                     (Espaço para a <br> Foto do Cliente)
                 </div>
                 <div class="about-content">
-                    <h2>Olá, eu sou Alex Stone</h2>
+                    <h2>Olá, eu sou Unknown</h2>
                     <p>Nos últimos 10 anos, trabalhei como educador físico certificado e nutricionista, ajudando centenas de clientes a quebrar platôs e construir o corpo que sempre desejaram.</p>
                     <p>Minha filosofia é simples: sem modismos, sem atalhos. Apenas métodos comprovados e adaptados à sua biologia e estilo de vida únicos. Eu não apenas te dou um plano; eu te ensino o "porquê" por trás de cada exercício e cada refeição.</p>
                     <a href="#contact" class="btn">Vamos Conversar</a>
@@ -38,26 +40,139 @@
             </div>
         </section>
 
-        <section id="services" class="pillars">
+        <section id="services" class="services-accordion-images">
             <div class="container">
-                <h2>Como Posso Te Ajudar</h2>
-                <div class="pillar-grid">
-                    <div class="pillar-card">
-                        <div class="icon-placeholder">💪</div>
-                        <h3>Treino Individual</h3>
-                        <p>Garanta vagas de coaching personalizado. Vamos aperfeiçoar sua forma, otimizar seus treinos e acompanhar seu progresso semanalmente.</p>
+                <h2>Meus 3 Pilares do Sucesso</h2>
+                
+                <div class="accordion-grid">
+                    
+                    <div class="accordion-item">
+                        <button class="accordion-header" type="button" 
+                                style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1599058917212-d750089bc07e')">
+                            <span class="header-title">Treino Individual</span>
+                            <span class="arrow-icon"></span>
+                        </button>
+                        <div class="accordion-panel">
+                            <div class="panel-content">
+                                <h4>Foco em Performance e Forma</h4>
+                                <p>Garanta vagas de coaching personalizado. Vamos aperfeiçoar sua forma, otimizar seus treinos e acompanhar seu progresso semanalmente. Chega de treinar sem saber o porquê de cada exercício. Vamos construir um físico forte e funcional com base em ciência, não em achismo.</p>
+                                <a href="#contact" class="btn">Quero Treinar Certo</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <button class="accordion-header" type="button"
+                                style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1543353071-873f6b6a2213')">
+                            <span class="header-title">Planos de Nutrição</span>
+                            <span class="arrow-icon"></span>
+                        </button>
+                        <div class="accordion-panel">
+                            <div class="panel-content">
+                                <h4>Nutrição como Combustível</h4>
+                                <p>Um plano de combustível feito para o seu corpo e objetivos. Sem dietas restritivas ou "alimentos proibidos", apenas alimentação inteligente que gera resultados. Você vai aprender a comer para ter mais energia, foco e otimizar a queima de gordura e ganho de massa.</p>
+                                <a href="#contact" class="btn">Quero o Plano Nutricional</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <button class="accordion-header" type="button"
+                                style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438')">
+                            <span class="header-title">Aulas Online</span>
+                            <span class="arrow-icon"></span>
+                        </button>
+                        <div class="accordion-panel">
+                            <div class="panel-content">
+                                <h4>Aulas em Grupo e Comunidade</h4>
+                                <p>Junte-se a uma comunidade de pessoas motivadas. Tenha acesso às minhas aulas e programas ao vivo de qualquer lugar do mundo. Perfeito para quem quer consistência e o apoio de um grupo que está no mesmo barco, buscando evoluir todos os dias.</p>
+                                <a href="#contact" class="btn">Quero Fazer Parte</a>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="pillar-card">
-                        <div class="icon-placeholder">🍎</div>
-                        <h3>Planos de Nutrição</h3>
-                        <p>Um plano de combustível feito para o seu corpo e objetivos. Sem dietas restritivas, apenas alimentação inteligente que gera resultados.</p>
-                    </div>
+                </div>
 
-                    <div class="pillar-card">
-                        <div class="icon-placeholder">💻</div>
-                        <h3>Aulas Online em Grupo</h3>
-                        <p>Junte-se a uma comunidade de pessoas motivadas. Tenha acesso às minhas aulas e programas ao vivo de qualquer lugar.</p>
+            </div>
+        </section>
+
+        <section id="before-after" class="before-after">
+            <div class="container">
+                <h2>Resultados Reais</h2>
+                <p class="section-subtitle">Veja a transformação de alguns dos meus alunos.</p>
+
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slide-content">
+                                <div class="before-after-image">
+                                    <span>ANTES</span>
+                                    <div class="img-placeholder">(Foto Antes)</div>
+                                </div>
+                                <div class="before-after-image">
+                                    <span>DEPOIS</span>
+                                    <div class="img-placeholder">(Foto Depois)</div>
+                                </div>
+                            </div>
+                            <h3>Aluno 1 (Ex: João S.)</h3>
+                            <p>"Perdi 15kg em 4 meses e ganhei uma disposição que não tinha há anos."</p>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                             <div class="slide-content">
+                                <div class="before-after-image">
+                                    <span>ANTES</span>
+                                    <div class="img-placeholder">(Foto Antes)</div>
+                                </div>
+                                <div class="before-after-image">
+                                    <span>DEPOIS</span>
+                                    <div class="img-placeholder">(Foto Depois)</div>
+                                </div>
+                            </div>
+                            <h3>Aluna 2 (Ex: Maria F.)</h3>
+                            <p>"Aprendi a comer melhor sem sofrer e ganhei massa muscular."</p>
+                        </div>
+
+                        <div class="swiper-slide">
+                             <div class="slide-content">
+                                <div class="before-after-image">
+                                    <span>ANTES</span>
+                                    <div class="img-placeholder">(Foto Antes)</div>
+                                </div>
+                                <div class="before-after-image">
+                                    <span>DEPOIS</span>
+                                    <div class="img-placeholder">(Foto Depois)</div>
+                                </div>
+                            </div>
+                            <h3>Aluno 3 (Ex: Carlos R.)</h3>
+                            <p>"Mais foco, mais força e finalmente entendi como treinar certo."</p>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2>O que meus alunos dizem</h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <div class="icon-quote">"</div>
+                        <p>O Unknown é mais que um personal, é um mentor. Ele realmente se importa com o seu progresso e ajusta o plano sempre que necessário. O melhor investimento que fiz!</p>
+                        <h3>- Ana Paula C.</h3>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="icon-quote">"</div>
+                        <p>Eu odiava academia. Achava chato e não via resultado. Com o plano dele, eu comecei a gostar do processo e os resultados vieram muito rápido. Recomendo 100%.</p>
+                        <h3>- Ricardo M.</h3>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="icon-quote">"</div>
+                        <p>A consultoria online é fantástica. Mesmo a distância, o acompanhamento é detalhado, com vídeos e feedback constante. Me sinto muito mais segura treinando.</p>
+                        <h3>- Beatriz L.</h3>
                     </div>
                 </div>
             </div>
@@ -74,13 +189,13 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Alex Stone Training. Todos os direitos reservados.
-          </p>
-          <p>Desenvolvido por <a href="https://www.instagram.com/danilovleal?igsh=OGlrYjRnNmRzMjg0">Danilo Leal</a></p>
+            <p>&copy; 2025 Unknown Training. Todos os direitos reservados.</p>
+            <p>Desenvolvido por <a href="http://instagram.com/danilovleal/">Danilo Leal</a></p>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
 
     <script src="script.js" defer></script>
 </body>
 </html>
-
